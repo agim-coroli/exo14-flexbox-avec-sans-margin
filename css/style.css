@@ -1,0 +1,46 @@
+/* Methode 1 */
+.largeur{
+    display: flex;
+}
+.item{
+    background-color: orange;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+/* Methode 2 sans margin */
+/* .conteneur{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+}
+.largeur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+.item{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+div>:nth-child(1)>div{
+    width:100%;
+}
+div>:nth-child(2)>div{
+    width: 755px;
+}
+div>:nth-child(3)>div{
+    width: 500px;
+}
+div>:nth-child(4)>div{
+    width: 117px;
+} */
